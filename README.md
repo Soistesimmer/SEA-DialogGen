@@ -21,4 +21,4 @@ Please prepare dataset for query production following the scripts under `query-p
 ### Response Generation
 
 * prepare dataset for directly training using `prepare_data.py` 
-* run the scripts under `rank-gen/script` or `merge-gen/script` to train or test producers
+* run the scripts under `rank-gen/script` or `merge-gen/script` to train or test models
