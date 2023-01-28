@@ -24,4 +24,4 @@ Please prepare dataset for query production following the scripts under `query-p
 * run the scripts under `rank-gen/script` or `merge-gen/script` to train or test models
 
 #### Potential Bug
-* We notice a version mismatch problem when using latest version of transformers package. This bug influences generation models using BART because latest BART changes start token when generation. And, this bug can be solved by add ``decoder_start_token_id=0'' command for ``generate'' function (e.g., line 183 in Merge-gen/main.py).
+* We notice a version mismatch problem when using latest version of transformers package. This bug influences generation models using BART because latest BART changes start token when generation. And, this bug can be solved by add `decoder_start_token_id=0` command for `generate` function (e.g., line 183 in `Merge-gen/main.py`).
